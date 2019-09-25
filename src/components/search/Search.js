@@ -36,7 +36,7 @@ class Search extends Component {
 
   render() {
     return (
-      <div>
+      <div className='search-container'>
         <TextField
           name='searchText'
           value={this.state.searchText}
